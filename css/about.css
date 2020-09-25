@@ -1,0 +1,146 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url('../img/fondogral.jpg');
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    padding: 0px 25px;
+    height: 15vh;
+    justify-content: space-between;
+    background-color: rgba(255, 0, 0, 0.7);
+    background-size: cover;
+    border-radius: 9px;
+    transition: 300ms;
+}
+
+header #logo {
+    height: 50px;
+}
+
+header #logo img {
+    height: 15vh;
+    transition: 400ms;
+}
+
+header #logo img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+header nav {
+    width: 50%;
+    height: 100px;
+    margin-top: 15px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a {
+    height: 25px;
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-size: 1.5em;
+    transition: 400ms;
+    margin-top: 25px;
+}
+
+header nav a:hover {
+    color: rgb(0, 0, 0);
+    transform: scale(1.5, 1.5);
+}
+
+#content {
+    width: 97%;
+    height: 420px;
+    margin: 15px auto;
+    background-color: rgb(13, 109, 0, .8);
+    text-align: center;
+    border-radius: 4px;
+}
+
+#information {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+#content h3 {
+    font-size: 35px;
+    color: white;
+}
+
+#hist {
+    width: 45%;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(187, 187, 187, 0.59);
+    border-radius: 25px;
+}
+
+#hist p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 22px;
+}
+
+#sucur {
+    width: 45%;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.58);
+    border-radius: 25px;
+}
+
+#sucur p {
+    margin: 0;
+    padding: 0;
+    color: White;
+    margin-bottom: 12px;
+}
+
+#sucur p#suc {
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+
+/*Footer*/
+
+footer,
+footer a {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: arial;
+    line-height: 4em;
+    text-decoration: none;
+}
+
+footer a button {
+    width: auto;
+    height: auto;
+    padding: 5px;
+    font-size: 16px;
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+    border-radius: 4px;
+    text-align: center;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: red;
+    color: white;
+}

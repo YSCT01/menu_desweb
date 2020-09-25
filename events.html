@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/events.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <title>Nosotros</title>
+</head>
+
+<body>
+<header>
+    <a href="index.html" id='logo'><img src="img/logo.jpeg"></a>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="menu.html">Menú</a>
+        <a href="contact.html">Contacto</a>
+        <a href="events.html">Eventos</a>
+        <a href="about.html">Nosotros</a>
+    </nav>
+</header>
+
+<hr>
+<div id="content">
+    <h3>Eventos</h3>
+    <div id="information">
+    <div id="slide">
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="img/ev1.jpg" style="width:65%">
+            <div class="text">Cumpleaños</div>
+        </div>
+
+        <div class="mySlides fade">
+
+            <img src="img/ev2.jpg" style="width:65%">
+            <div class="text">Bodas y Fiestas</div>
+        </div>
+
+        <div class="mySlides fade">
+
+            <img src="img/ev3.jpg" style="width:65%">
+            <div class="text">Reuniones</div>
+        </div>
+
+
+    </div>
+
+    <br>
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+</div>
+        <div id="event">
+            <main>
+                ¡Atendemos todo tipo de evento!<br>
+                Tenemos el paquete ideal para ti<br>
+                para tus fiestas y reuniones, con<br>
+                diferentes métodos de pago y gran<br>
+                variedad de paquetes.<br>
+                Para contactarte con nosotros, <br>
+                haz click en el botón de abajo.
+                <br>
+                <a href="contact.html">Contáctanos</a>
+            </main>
+        </div>
+</div>
+</div>
+<footer>
+    Restaurante Mexicano "Amigos" &COPY;
+
+</footer>
+<script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 4000); // Change image every 2 seconds
+    }
+</script>
+</body>
+
+</html>
