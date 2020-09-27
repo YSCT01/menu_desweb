@@ -1,200 +1,220 @@
-* {
-    transition: 400ms;
-}
-
-
-/*Header---------------------------------------------------*/
-
-body {
-    margin: 0px 10px;
-    padding: 0px;
-    background-image: url('../img/fondoindex.jpg');
-    background-size: contain;
-}
-
-header {
-    display: flex;
-    padding: 0px 25px;
-    height: 100vh;
-    justify-content: space-between;
-    background-image: url('../img/fondores.png');
-    background-size: cover;
-    transition: 300ms;
-}
-
-header #logo {
-    height: 50px;
-}
-
-header #logo img {
-    margin-top: 20px;
-    margin-left: 15px;
-    height: 15vh;
-    transition: 400ms;
-}
-
-header #logo img:hover {
-    transform: scale(1.2, 1.2);
-}
-
-header nav {
-    width: 50%;
-    height: 100px;
-    margin-top: 15px;
-    margin-right: 65px;
-    display: flex;
-    justify-content: space-between;
-}
-
-header nav a {
-    height: 25px;
-    text-decoration: none;
-    color: white;
-    font-family: arial;
-    font-size: 1.5em;
-    transition: 400ms;
-    margin-top: 25px;
-}
-
-header nav a:hover {
-    color: rgb(0, 0, 0);
-    transform: scale(1.5, 1.5);
-}
-
-
-/*Sections-----------------------------------------------*/
-
-.content {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 25px;
-}
-
-.sec_art {
-    margin: 0;
-    width: 100%;
-    height: 100vh;
-    font-family: sans-serif;
-}
-
-#Presentation {
-    background-color: rgb(13, 109, 0, .8);
-}
-
-#About {
-    background-color: rgba(255, 255, 255, 0.80);
-    color: white;
-}
-
-#Food {
-    background-color: rgba(255, 0, 0, 0.80);
-}
-
-.sec_art h1 {
-    font-size: 5em;
-    text-align: center;
-    color: white;
-}
-
-.sec_art h2 {
-    font-size: 3em;
-    text-align: center;
-    color: rgb(212, 212, 212);
-}
-
-.sec_art p {
-    width: 40%;
-    font-size: 2em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
-    color: white;
-}
-
-#Presentation img {
-    margin-right: 20px;
-}
-
-#About img {
-    margin-left: 20px;
-}
-
-#About h1 {
-    color: black;
-}
-
-#About h2 {
-    color: #333;
-}
-
-#About .content {
-    margin-top: 5em;
-}
-
-#About p {
-    color: black;
-}
-
-#About a {
-    text-decoration: none;
-}
-
-.sec_art button {
-    width: 8em;
-    height: 3em;
-    font-size: 16px;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 5px;
-    margin-top: 2em;
-    margin-left: 35%;
-    cursor: pointer;
-    transition: 400ms;
-}
-
-.sec_art button:hover {
-    background-color: black;
-    color: white;
-    transform: scale(1.2, 1.2);
-}
-
-
-.slideshow-container img{
-    height: 200px;
-    max-width:150px;
-    overflow-x:hidden;
-}
-
-/*Footer*/
-
-footer,
-footer a {
-    width: 100%;
-    height: 10vh;
-    margin-top: 25px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-size: 18px;
-    font-family: arial;
-    line-height: 4em;
-    text-decoration: none;
-}
-
-footer a button {
-    width: auto;
-    height: auto;
-    padding: 5px;
-    font-size: 16px;
-    background-color: whitesmoke;
-    border: none;
-    color: black;
-    border-radius: 4px;
-    text-align: center;
-    transition: 400ms;
-    cursor: pointer;
-}
-
-footer button:hover {
-    background-color: red;
-    color: white;
-}
+    * {
+        transition: 400ms;
+    }
+    /*Header---------------------------------------------------*/
+    
+    body {
+        margin: 0px 10px;
+        padding: 0px;
+        background-image: url('../img/fondoindex.jpg');
+        background-size: contain;
+    }
+    
+    header {
+        display: flex;
+        padding: 0px 25px;
+        height: 100vh;
+        justify-content: space-between;
+        background-image: url('../img/fondores.png');
+        background-size: cover;
+        transition: 300ms;
+    }
+    
+    header #logo {
+        height: 50px;
+    }
+    
+    header #logo img {
+        margin-top: 20px;
+        margin-left: 15px;
+        height: 15vh;
+        transition: 400ms;
+    }
+    
+    header #logo img:hover {
+        transform: scale(1.2, 1.2);
+    }
+    
+    header nav {
+        width: 50%;
+        height: 100px;
+        margin-top: 15px;
+        margin-right: 65px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    header nav a {
+        height: 25px;
+        text-decoration: none;
+        color: white;
+        font-family: arial;
+        font-size: 1.5em;
+        transition: 400ms;
+        margin-top: 25px;
+    }
+    
+    header nav a:hover {
+        color: rgb(0, 0, 0);
+        transform: scale(1.5, 1.5);
+    }
+    /*Sections-----------------------------------------------*/
+    
+    .content {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 25px;
+    }
+    
+    .sec_art {
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        font-family: sans-serif;
+    }
+    
+    #Presentation {
+        background-color: rgb(13, 109, 0, .8);
+    }
+    
+    #About {
+        background-color: rgba(255, 255, 255, 0.80);
+        color: white;
+    }
+    
+    #Food {
+        background-color: rgba(255, 0, 0, 0.80);
+    }
+    
+    .sec_art h1 {
+        font-size: 5em;
+        text-align: center;
+        color: white;
+    }
+    
+    .sec_art h2 {
+        font-size: 3em;
+        text-align: center;
+        color: rgb(212, 212, 212);
+    }
+    
+    .sec_art p {
+        width: 40%;
+        font-size: 2em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: justify;
+        color: white;
+    }
+    
+    #Presentation img {
+        margin-right: 20px;
+    }
+    
+    #About img {
+        margin-left: 20px;
+    }
+    
+    #About h1 {
+        color: black;
+    }
+    
+    #About h2 {
+        color: #333;
+    }
+    
+    #About .content {
+        margin-top: 5em;
+    }
+    
+    #About p {
+        color: black;
+    }
+    
+    #About a {
+        text-decoration: none;
+    }
+    
+    .sec_art button {
+        width: 8em;
+        height: 3em;
+        font-size: 16px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border-radius: 5px;
+        margin-top: 2em;
+        margin-left: 35%;
+        cursor: pointer;
+        transition: 400ms;
+    }
+    
+    .sec_art button:hover {
+        background-color: black;
+        color: white;
+        transform: scale(1.2, 1.2);
+    }
+    
+    .slideshow-container img {
+        height: 200px;
+        max-width: 150px;
+        overflow-x: hidden;
+    }
+    /*Footer*/
+    
+    footer {
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 18px;
+        font-family: arial;
+        line-height: 4em;
+        text-decoration: none;
+    }
+    
+    footer #fref {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    footer #social {
+        padding: 5px;
+    }
+    
+    footer #icons {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        font-size: 45px;
+    }
+    
+    footer #icons i {
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    
+    footer #icons i:hover {
+        color: red;
+        transform: scale(1.5, 1.5);
+    }
+    
+    footer #fnav {
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 55px;
+    }
+    
+    footer #fnav a {
+        display: block;
+        text-decoration: none;
+        margin: 1px 30px;
+        color: white;
+        font-size: 22px;
+        height: 0;
+    }
+    
+    footer #fnav a:hover {
+        color: red;
+        transform: scale(1.2, 1.2);
+        margin-top: -6px;
+    }

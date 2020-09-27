@@ -151,12 +151,10 @@ td ul ul li {
 
 /*Footer*/
 
-footer,
-footer a {
-    width: 100%;
-    height: 10vh;
-    margin-top: 25px;
-    background-color: black;
+footer {
+    width: 97%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.795);
     color: white;
     text-align: center;
     font-size: 18px;
@@ -165,21 +163,50 @@ footer a {
     text-decoration: none;
 }
 
-footer a button {
-    width: auto;
-    height: auto;
+footer #fref {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer #social {
     padding: 5px;
-    font-size: 16px;
-    background-color: whitesmoke;
-    border: none;
-    color: black;
-    border-radius: 4px;
-    text-align: center;
-    transition: 400ms;
+}
+
+footer #icons {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: 45px;
+}
+
+footer #icons i {
+    margin-bottom: 10px;
     cursor: pointer;
 }
 
-footer button:hover {
-    background-color: red;
+footer #icons i:hover {
+    color: red;
+    transform: scale(1.5, 1.5);
+}
+
+footer #fnav {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 55px;
+}
+
+footer #fnav a {
+    display: block;
+    text-decoration: none;
+    margin: 1px 30px;
     color: white;
+    font-size: 22px;
+    height: 0;
+}
+
+footer #fnav a:hover {
+    color: red;
+    transform: scale(1.2, 1.2);
+    margin-top: -6px;
 }
